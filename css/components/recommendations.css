@@ -1,0 +1,49 @@
+@import "../design-tokens/fonts.css";
+@import "../design-tokens/colors.css";
+
+.recommendations .container {
+    display: flex;
+    padding-bottom: 126px;
+}
+
+.recommendations .left-box {
+    margin-right: 64px;
+}
+
+.recommendations span {
+    font-weight: bold;
+}
+
+.recommendations .left-box ul {
+    width: 424px;
+}
+
+.recommendations .right-box ul {
+    width: 370px;
+}
+
+.recommendations ul {
+    margin-left: 31px;
+    height: 150px;
+}
+
+.recommendations h3 {
+    height: 27px;
+    margin-bottom: 27px;
+    font-family: var(--header_font);
+    font-size: 24px;
+}
+
+.recommendations li {
+    margin-top: 14px;
+    font-size: 14px;
+    position: relative;
+}
+
+.recommendations li::before {
+    content: "•";
+    color: var(--yellow_header);
+    position: absolute;
+    left: -24px;
+    font-size: 18px;
+}

@@ -1,0 +1,63 @@
+@import "../design-tokens/colors.css";
+
+
+footer {
+    background-color: var(--footer-advantage_bg);
+    color: var(--footer-text_color);
+}
+
+footer .container {
+    padding-top: 60px;
+    padding-bottom: 84px;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.logo-container {
+    display: flex;
+    margin-bottom: 110px;
+}
+
+.logo-container p{
+    margin-top: 25px;
+    margin-left: 15px;
+    color: var(--light-text_color);
+}
+
+.footer-content .left-box p{
+    width: 162px;
+    height: 36px;
+    font-size: 14px;
+}
+
+.footer-content .right-box {
+    margin-left: 99px;
+}
+
+.footer-content .right-box ul {
+    display: flex;
+}
+
+.footer-content .right-box li {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+.footer-content li p {
+    color: var(--footer-nav-text_color);
+    margin-bottom: 14px;
+}
+
+.footer-content li h3 {
+    font-size: 14px;
+    color: var(--light-text_color);
+    width: 180px;
+    padding-bottom: 12px;
+    margin-bottom: 58px;
+    border-bottom: 1px solid var(--footer-text_color);
+}
+

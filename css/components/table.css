@@ -1,0 +1,76 @@
+@import "../design-tokens/fonts.css";
+@import "../design-tokens/colors.css";
+
+
+.table-section {
+    background-color: var(--header-table_bg);
+}
+
+.table-section .container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 97px;
+    padding-bottom: 85px;
+}
+
+.schedule {
+    display: flex;
+    padding-bottom: 78px;
+}
+
+.schedule p{
+    width: 457px;
+    height: 55px;
+    margin-left: 361px;
+    color: white;
+    font-size: 14px;
+}
+
+.schedule h3{
+    width: 159px;
+    height: 56px;
+    color: var(--yellow_main);
+    font-size: 24px;
+    font-family: var(--header_font);
+}
+
+.schedule a {
+    color: var(--yellow_main);
+    text-decoration: underline;
+}
+
+.table-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 55px;
+  font-size: 14px;
+  color: white;
+}
+
+.table-container table {
+  width: 100%;
+}
+
+.table-container tr {
+  color: white;
+  border-bottom: 1px solid var(--footer-text_color);
+  background-color: var(--header-table_bg);
+}
+
+.table-container th, .table-container td {
+  width: 180px;
+  padding: 15px;  
+}
+
+.table-container th {
+  text-align: left;
+  background-color: #111111;
+}
+
+.table-container td {
+  text-transform: uppercase;
+}
+
+.table-container td:last-child, .table-container th:last-child {
+  width: 140px;
+}

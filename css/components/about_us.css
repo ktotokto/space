@@ -1,0 +1,44 @@
+@import "../design-tokens/colors.css";
+
+.about-us {
+    background-color: var(--footer-advantage_bg);
+    color: var(--light-text_color);
+}
+
+.about-us .container {
+    padding-top: 187px;
+    padding-bottom: 79px;
+}
+
+.about-us-list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    height: 55px;
+}
+
+.about-us-list li {
+    width: 172px;
+    position: relative
+}
+
+.advantage-1::before {
+    content: url("../../images/advantage-icon-1.svg");
+}
+
+.advantage-2::before {
+    content: url("../../images/advantage-icon-2.svg");
+}
+
+.advantage-3::before {
+    content: url("../../images/advantage-icon-3.svg");
+}
+
+.advantage-4::before {
+    content: url("../../images/advantage-icon-4.svg");
+}
+
+.about-us-list li::before {
+    position: absolute;
+    bottom: 89px;
+}

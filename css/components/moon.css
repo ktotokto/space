@@ -1,0 +1,25 @@
+@import "../design-tokens/fonts.css";
+
+.moon .container {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 52px;
+}
+
+.moon .left-box {margin-right: 79px;}
+
+.moon .right-box h3{
+    width: 375px;
+    font-family: var(--header_font);
+    font-size: 24px;
+    line-height: 27px;
+    padding-top: 5px;
+    padding-bottom: 35px;
+}
+
+.moon .right-box p{
+    width: 443px;
+    font-size: 14px;
+    padding-top: 9px;
+    padding-bottom: 5px;
+}

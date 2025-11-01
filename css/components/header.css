@@ -1,0 +1,76 @@
+@import "../design-tokens/colors.css";
+
+header {
+    background-color: var(--header-table_bg);
+    color: var(--light-text_color);
+}
+
+header .container {
+    padding-top: 54px;
+    padding-bottom: 195px;
+    background-image: url(../../images/moon-rocket.png);
+    background-repeat: no-repeat;
+    background-position: 520px 140px;
+}
+
+nav {
+    display: flex;
+    font-size: 14px;
+}
+
+.menu {
+    display: flex;
+    margin: auto 0;
+    padding-left: 62px;
+}
+.menu li {
+    padding-right: 30px;
+}
+
+.contacts {
+    display: flex;
+    align-self: flex-end;
+    margin: auto 0;
+    margin-left: auto;
+}
+
+.contacts li {
+    padding-left: 24px;
+}
+
+.select-tour .text-container {
+    width: 254px;
+    font-size: 14px;
+}
+
+.select-tour {
+    margin-top: 113px;
+    padding-left: 120px;
+}
+
+
+.btn-container-tour {
+    margin-top: 54px;
+}
+
+.select-tour p {
+    margin-top: 30px;
+}
+.tour-btn {
+    background-color: var(--yellow_header);
+    padding: 17px 100px 16px 38px;
+    font-size: 14px;
+    position: relative;
+} 
+
+
+.tour-btn::after {
+    content: url("../../images/right-arrow-dark.svg");
+    position: absolute;
+    top: 17px;
+    right: 17px;
+}
+
+
+
+

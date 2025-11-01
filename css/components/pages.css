@@ -1,0 +1,170 @@
+@import "../design-tokens/colors.css";
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.page-section h1,
+.page-section h2,
+.page-section h3 {
+    color: var(--bark-text_color);
+    margin-bottom: 20px;
+}
+
+.page-section h1 {
+    font-size: 32px;
+    margin-top: 40px;
+}
+
+.page-section h2 {
+    font-size: 24px;
+}
+
+.page-section h3 {
+    font-size: 20px;
+}
+
+
+.lead {
+    font-size: 14px;
+    color: var(--bark-text_color);
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+
+.history-block,
+.mission-block,
+.team-block {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.team-block {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+/* === Страница "Каталог туров" === */
+.filters {
+    display: flex;
+    gap: 30px;
+    margin: 40px 0 50px;
+    flex-wrap: wrap;
+}
+
+.filters label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: var(--darck-text_color);
+}
+
+.filters select {
+    margin-top: 8px;
+    padding: 8px 12px;
+    background-color: transparent;
+    border: 1px solid var(--darck-text_color);
+    color: var(--darck-text_color);
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.filters option {
+    background-color: var(--header-table_bg);
+    color: var(--light-text_color);
+}
+
+.tours-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.tour-card {
+    background-color: black;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.tour-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.tour-card h3 {
+    margin: 15px 0;
+    font-size: 18px;
+    color: var(--light-text_color);
+}
+.tour-card p {
+    color: var(--light-text_color);
+}
+
+.tour-meta {
+    font-size: 14px;
+    margin: 35px 0;
+    color: var(--light-text_color);
+}
+
+/* === Страница "Контакты" === */
+.contact-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.contact-card {
+    background-color: black;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact-card p{
+    color: white;
+}
+
+.contact-card div {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: var(--yellow_header);
+}
+
+.contact-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-card a {
+    color: var(--yellow_header);
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
+
+.map-placeholder {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--light-text_color);
+    margin-top: 40px;
+}
+
+.contacts-section, .tour-section {
+    margin-bottom: 200px;
+    color: black;
+}
+
+.about-section {
+    margin-bottom: 100px;
+}

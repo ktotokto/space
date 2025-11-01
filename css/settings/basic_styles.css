@@ -1,0 +1,29 @@
+@import "../design-tokens/fonts.css";
+@import "../design-tokens/colors.css";
+
+p, h3 {
+    font-family: var(--main_font);
+}
+
+h1 {
+    font-family: var(--header_font);
+    color: white;
+    font-size: 45px;
+}
+
+h2 {
+    display: none;
+}
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.btn {
+    border-radius: 40px;
+    color: var(--darck-text_color);
+}
+

@@ -1,0 +1,12 @@
+@import "settings/resrt.css";
+@import "settings/basic_styles.css";
+@import "components/header.css";
+@import "components/about_us.css";
+@import "components/moon.css";
+@import "components/recommendations.css";
+@import "components/form.css";
+@import "components/table.css";
+@import "components/footer.css";
+@import "components/breadcrumbs.css";
+@import "components/pages.css";
+@import "components/reviews.css";

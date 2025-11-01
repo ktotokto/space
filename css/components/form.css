@@ -1,0 +1,132 @@
+@import "../design-tokens/fonts.css";
+@import "../design-tokens/colors.css";
+
+
+.form-section {
+    background-color: var(--form_bg);
+}
+
+.form-section .container {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 68px;
+}
+
+.form-section .left-box {
+    margin-right: 179px;
+}
+
+.form-section h3 {
+    width: 318px;
+    height: 56px;
+    margin-bottom: 60px;
+    font-size: 24px;
+    font-family: var(--header_font);
+}
+
+.form-section p {
+    width: 339px;
+    height: 55px;
+    font-size: 14px;
+}
+
+.half-box {
+    display: flex;
+    width: 440px;
+    height: 50px;
+    margin-bottom: 22px;
+}
+
+.form .half-segment {
+    width: 215px;
+    margin-right: 10px;
+
+}
+
+.form p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 440px;
+    height: 50px;
+    margin-bottom: 8px;
+}
+
+.visually-hid {
+    display: none;
+}
+
+.form p input[type="text"],
+.form p input[type="tel"] {
+    box-sizing: border-box;
+    width: 440px;
+    height: 50px;
+    padding: 20px;
+    border: 0;
+    background-color: white;
+}
+
+.form .half-segment input[type="text"] {
+    width: 215px;
+}
+
+.form input::placeholder {
+    color: var(--darck-text_color);
+}
+
+.form input[type="checkbox"] {
+    appearance: none;
+    width: 0;
+    height: 25px;
+    position: relative;
+    margin-left: 43px;
+    top: 5px;
+}
+
+.form input[type="checkbox"]::before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    left: -42px;
+    box-sizing: border-box;
+}
+
+.form input[type="checkbox"]:checked::after {
+    content: url("../../images/tick.svg");
+    position: absolute;
+    left: -42px;
+}
+
+.form button[type="submit"] {
+    background-color: var(--header-table_bg);
+    border-radius: 30px;
+    width: 215px;
+    height: 50px;
+    color: white;
+    padding: 16px 102px 17px 26px;
+    position: relative;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.form button[type="submit"]::after {
+    content: url("../../images/right-arrow-white.svg");
+    position: absolute;
+    top: 17px;
+    right: 24px;
+}
+
+.form button[type="submit"]:hover {
+    background-color: #333333; 
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.35);
+    transform: translateY(-2px);
+    transition: all 0.25s ease;
+}
+
+.form button[type="submit"]:active {
+    background-color: #1a1a1a; 
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+    transform: translateY(0);
+    transition: all 0.1s ease;
+}
